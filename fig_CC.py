@@ -2,12 +2,9 @@
 # ==========================================================================
 #  Computes the Functional Connectivity Dynamics (FCD)
 #
-# Original Chen and Capmbell model from: Chen, L., Campbell, S.A. Exact mean-field models
-# for spiking neural networks with adaptation. J Comput Neurosci 50, 445–469 (2022).
-# https://doi.org/10.1007/s10827-022-00825-9
 # --------------------------------------------------------------------------
 #
-#  Computes simulations with Chen and Campbell's model (CC):
+#  Computes simulations with the Whole Brain version of Chen and Campbell's model (CC):
 #
 #  Code by Adrià Puig
 # ==========================================================================
