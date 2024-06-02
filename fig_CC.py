@@ -1,10 +1,7 @@
 # ==========================================================================
 # ==========================================================================
-#  Computes the Functional Connectivity Dynamics (FCD)
-#
-# --------------------------------------------------------------------------
-#
-#  Computes simulations with the Whole Brain version of Chen and Campbell's model (CC):
+#  Main file to run.
+#  Plots the Functional Connectivity Dynamics (FCD) obtained with the Whole Brain version of Chen and Campbell's model:
 #
 #  Code by Adrià Puig
 # ==========================================================================
