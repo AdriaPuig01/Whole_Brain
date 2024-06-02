@@ -23,4 +23,3 @@ Chen_Campbell_load_data: Selects 20 random subjects out of all 1003. All file pa
 - **Chen_Campbell_setup**: Configures which model, integrator, and observable will be used. Also selects from which human activity the data is needed.
 
 - **Models Folder:Chen_Campbell_Whole_Brain_version**: Contains the implementation of a Whole Brain version of Chen and Campbell's population model.
-- 
