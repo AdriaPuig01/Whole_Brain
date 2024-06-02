@@ -5,9 +5,9 @@ This GitHub repository contains the code for my final degree project: **Implemen
 **Original Article for Chen and Campbell's Population Model**:
 Chen, L., & Campbell, S. A. (2022). Exact mean-field models for spiking neural networks with adaptation. *Journal of Computational Neuroscience, 50*(3), 445–469. [https://doi.org/10.1007/s10827-022-00825-9](https://doi.org/10.1007/s10827-022-00825-9)
 
-The **WholeBrain** folder is entirely extracted from my tutor's GitHub, except for the Chen and Campbell's Whole Brain version file in the **Models** folder.
+The **WholeBrain** folder is entirely extracted from my tutor's GitHub repository, except for the Chen and Campbell's Whole Brain version file in the **Models** folder.
 
-**My Tutor's Guide**:
+**My Tutor's Library**:
 [https://github.com/dagush/WholeBrain](https://github.com/dagush/WholeBrain)
 
 **Files Made by Me**:
@@ -22,4 +22,4 @@ The **WholeBrain** folder is entirely extracted from my tutor's GitHub, except f
 
 - **Chen_Campbell_load_data**: Selects 20 random subjects out of all 1003. All file paths are defined here and must be modified before running the project to match your computer.
 
-A detailed explanation of each code is provided at the start of every file, so for any additional doubts, please refer to the code.
+- **Models Folder:Chen_Campbell_Whole_Brain_version**: Contains the implementation of a Whole Brain version of Chen and Campbell's population model.
