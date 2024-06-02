@@ -1,19 +1,25 @@
 # Whole_Brain
 
-This github contains the code for the testing of Chen and Campbell's Whole Brain model.
+This GitHub repository contains the code for my final degree project: **Implementation of a Whole-Brain System Based on Chen and Campbell’s Model** by Adrià Puig.
 
-Original article for the population model: Chen, L., Campbell, S.A. Exact mean-field models for spiking neural networks with
-adaptation. J Comput Neurosci 50, 445–469 (2022). https://doi.org/10.1007/s10827-022-00825-9
+**Original Article for Chen and Campbell's Population Model**:
+Chen, L., & Campbell, S. A. (2022). Exact mean-field models for spiking neural networks with adaptation. *Journal of Computational Neuroscience, 50*(3), 445–469. [https://doi.org/10.1007/s10827-022-00825-9](https://doi.org/10.1007/s10827-022-00825-9)
 
-Generalized to Whole Brain by Adrià Puig.
+The **WholeBrain** folder is entirely extracted from my tutor's GitHub, except for the Chen and Campbell's Whole Brain version file in the **Models** folder.
 
-The WholeBrain folder is extracted on It's entirety from my tutor's github, except for
-Chen and Campbell Whole Brain version file in folder Models that is made by me.
+**My Tutor's Guide**:
+[https://github.com/dagush/WholeBrain](https://github.com/dagush/WholeBrain)
 
-The documents Chen_Campbell_setup, Prepro_fgain_CC.py, fitting_fgain_CC.py and fig_CC.py are also made by me.
+**Files Made by Me**:
 
-To run this code you must go to fig_CC.py which is the main one from where the plotting of the Whole Brain fitting for
-both values we and J can be accesed. To plot with value we call prepro file and fittinf_fgain if you want with J value.
-The place where this can be configured is at the start and easy to see.
+- **fig_CC**: Main file to run, from where the Whole Brain fitting for both values \( we \) and \( J \) is plotted. At line 25, you can select which value to use. If using \( we \), call the `prepro_fgain` file, and if using \( J \), call the `fitting_fgain` file.
 
-A detailed explanation of each code is at the start of every file so any extra doubts refer to the code.
+- **Prepro_fgain_CC.py**: Calculates observables swFCD and FC for every subject, modifying the value \( we \).
+
+- **Fitting_fgain_CC.py**: Calculates observables swFCD and FC for every subject, modifying the value \( J \).
+
+- **Chen_Campbell_setup**: Configures which model, integrator, and observable will be used. Also selects from which human activity the data is needed.
+
+- **Chen_Campbell_load_data**: Selects 20 random subjects out of all 1003. All file paths are defined here and must be modified before running the project to match your computer.
+
+A detailed explanation of each code is provided at the start of every file, so for any additional doubts, please refer to the code.
